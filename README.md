@@ -52,4 +52,21 @@ A training script is included in ```onset_train.m```. Optionally, there is the o
 This implementation is loosely based on:
 [1]. Jan Schlüter and Sebastian Böck. "Improved Musical Onset Detection with Convolutional Neural Networks." 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2014.
 
+### Citation
+
+If you use this code or data in your research, please cite:
+
+* C. de Obaldía, Udo Zölzer: *"Convolutional Neural Networks for Spectrogram Segmentation of Whale Calls"*, 10th International Conference on Ecological Informatics, 24–28 September 2018, Jena, Germany.
+
+```bibtex
+@inproceedings{deobaldia2018whale,
+  author    = {de Obaldía, C. and Zölzer, Udo},
+  title     = {Convolutional Neural Networks for Spectrogram Segmentation of Whale Calls},
+  booktitle = {10th International Conference on Ecological Informatics},
+  year      = {2018},
+  month     = {September},
+  address   = {Jena, Germany}
+}
+```
+
 For more information on matconvnet visit its [official repository](https://github.com/vlfeat/matconvnet)
