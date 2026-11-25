@@ -1,5 +1,5 @@
-#A Custom CNN for Onset Detection
-This repository contains a MATLAB example for Onset Detection using a Convolutional Neural Network (CNN). The repository contains a matconvnet distribution for training/evaluation.
+# A Custom CNN for Onset Detection
+This repository contains a MATLAB example for Onset Detection using a Convolutional Neural Network (CNN). The repository contains a _matconvnet_ distribution for training/evaluation.
 
 ### Training and Testing Databases
 For use, please download the training and testing databases and install them in a folder in your local PC.
@@ -42,14 +42,14 @@ The output of the CNN is then post-processed to deliver a generated onset detect
 |:--:|
 | <sub> *Generated onset detection function and its ground truth.* </sub>|
 
-The output shows a correct identification of the onsets which play along with the audio file.
+The peaks of the output signal, shown in the picture as a line plot, show a correct identification of the onsets which play along with the audio file.  Notice that the second onset is correctly generalized. This represents and improvement with respect to the algorithm used to generate the ground truth labels. Notice, also, some issues with time alignment in the output signal. 
 
 
 ### Training
 A training script is included in ```onset_train.m```. Optionally, there is the option to use the mel-filtered spectral flux, which exploits the relationships between subsequent time bins in the spectrogram.
 
 ### References
-This implementation is based on:
+This implementation is loosely based on:
 [1]. Jan Schlüter and Sebastian Böck. "Improved Musical Onset Detection with Convolutional Neural Networks." 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2014.
 
 For more information on matconvnet visit its [official repository](https://github.com/vlfeat/matconvnet)
